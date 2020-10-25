@@ -1,0 +1,129 @@
+@font-face{
+	font-family: Lato;
+	src: url(files/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Lato;
+	src: url(files/Lato-Bold.ttf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Lato;
+	src: url(files/Lato-Italic.ttf);
+	font-style: italic;
+}
+@font-face{
+	font-family: Lato;
+	src: url(files/Lato-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face{
+	font-family: Lato;
+	src: url(files/Lato-Black.ttf);
+	font-weight: 900;
+}
+@font-face{
+	font-family: LatoLight;
+	src: url(files/Lato-Light.ttf);
+}
+@font-face{
+	font-family: Arcade;
+	src: url(files/Arcade.ttf);
+}
+#navbar{
+	width: 	100%;
+	height: 50px;
+	top:0;
+	left:0;
+	position: fixed;
+	background-color: #1a1a1a;
+}
+.button{
+	padding: 1% 1% 1% 1%;
+	margin-left: 2%;
+	font-size: 100%;
+	font-family: Lato;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	color: #747474;
+	text-align: center;
+
+}
+.button:hover{
+	background-color: #747474;
+	color:black;
+	border-radius: 10%;
+}
+.smallContainer{
+	margin: 10% auto;
+	width: 50%;
+	padding-top: 60px;
+}
+.picture{
+	height: 200px;
+	width: 200px;
+	border: 5px solid black;
+	border-radius: 50%;
+	float:left;
+}
+.pic{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.name{
+	float: left;	
+	margin-left: 50px;
+	margin-top: 50px;
+	color:#FFE400; 
+	font-weight: 900; 
+	font-family: Lato;
+}
+.desc{
+	clear: both;
+	color:#FFE400; 
+	font-weight: 900; 
+	font-family: LatoLight;
+	margin-top: 5px;
+}
+.container{
+	margin: 10% auto;
+	width: 80%;
+}
+.title{
+	margin:auto;
+	color:#FFE400; 
+	font-weight: 900; 
+	font-family: Lato;
+	text-align: center;
+	border-top: 2px solid #747474;
+	padding-top: 60px;
+}
+.table{
+	margin:auto;
+	border-spacing: 20px;
+}
+.box{
+	width: 300px;
+	height: 200px;
+	float:left;
+	border: 2px solid #727272;
+	background-color: #727272;
+}
+.preview{
+	width: 150px;
+	height: 150px;
+	padding-top: 10px;
+	object-fit: scale-down;
+}
+.subtitle{
+	color:#FFE400;
+	font-family: Lato;
+}
+.previewCert{
+	width: 300px;
+	height: 200px;
+	object-fit: scale-down;
+}
